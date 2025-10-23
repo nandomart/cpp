@@ -8,6 +8,8 @@ int main() {
     string nombre;
     int edad;
     
-    cout << "Hola soy Fernando.\n";
-    
+    nombre = "Hola soy Fernando.\n";
+    cout << nombre.find('@') << endl;
+    cout << nombre.find('d', 16) << endl;
+    cout << std::string::npos << endl;
 }
